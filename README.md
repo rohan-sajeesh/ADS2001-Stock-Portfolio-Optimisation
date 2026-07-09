@@ -3,7 +3,7 @@ Portfolio optimisation project using mathematical and computational methods to m
 
 
 
-# 📈 Stock Portfolio Optimisation
+# Stock Portfolio Optimisation
 
 Quantitative finance project investigating portfolio construction strategies and optimisation methods to maximise risk-adjusted returns using historical S&P500 stock data.
 
