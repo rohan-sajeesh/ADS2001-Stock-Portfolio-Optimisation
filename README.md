@@ -9,7 +9,7 @@ Quantitative finance project investigating portfolio construction strategies and
 
 ---
 
-## 📌 Overview
+## Overview
 
 Portfolio optimisation is the process of selecting asset allocations that balance expected returns against investment risk.
 
@@ -22,7 +22,7 @@ The project compares classical optimisation methods, risk-based approaches, and 
 
 ---
 
-## 🎯 Objective
+## Objective
 
 The goal of this project was to determine:
 
@@ -39,7 +39,7 @@ The project investigates the relationship between:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 Historical daily stock price data from companies included in the **S&P500 index** was used for portfolio analysis.
 
@@ -55,7 +55,7 @@ The dataset was used to calculate:
 
 ---
 
-## 🔧 Project Workflow
+## Project Workflow
 
 ### Data Preparation
 
@@ -99,7 +99,7 @@ Key findings:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
 - Pandas
@@ -114,7 +114,7 @@ Key findings:
 
 ---
 
-## 👤 My Contribution
+## My Contribution
 
 This project was completed as part of a five-person team for **ADS2001 – Data Challenges** at Monash University.
 
@@ -128,7 +128,7 @@ My contributions included:
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 Potential extensions include:
 
@@ -139,6 +139,6 @@ Potential extensions include:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
