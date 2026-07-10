@@ -8,7 +8,7 @@ Quantitative finance project investigating portfolio construction strategies and
 
 Portfolio optimisation is the process of selecting asset allocations that balance expected returns against investment risk.
 
-This project evaluates different portfolio construction approaches using historical S&P500 data and investigates whether mathematically optimised portfolios can outperform simple diversification strategies.
+The project compares 25+ portfolio construction strategies across classical optimisation, risk-based allocation, tail-risk methods, technical strategies, and machine learning-driven approaches using historical S&P500 stock returns.
 
 The project compares classical optimisation methods, risk-based approaches, and machine learning-driven strategies using historical stock returns.
 
@@ -61,13 +61,33 @@ The dataset was used to calculate:
 
 ### Portfolio Optimisation
 
-Multiple portfolio strategies were investigated:
+More than 25 portfolio strategies were developed and evaluated across several methodological families:
 
-- Equal-weight portfolio (1/N benchmark)
+### Classical Optimisation
+- Equal-weight (1/N) benchmark
 - Mean-variance optimisation
 - Maximum Sharpe ratio optimisation
-- Risk-based portfolio methods
-- Dynamic portfolio strategies
+- Minimum variance optimisation
+- Minimum CVaR optimisation
+
+### Risk-Based Methods
+- Risk Parity
+- Hierarchical Risk Parity (HRP)
+- Maximum Diversification
+- Minimum Drawdown-based optimisation
+
+### Tail-Risk and Robust Methods
+- Entropic Value-at-Risk (EVaR)
+- Conditional Value-at-Risk (CVaR)
+- Wasserstein Distributionally Robust Optimisation (DRO)
+- Composite risk-based optimisation methods
+
+### Dynamic and Machine Learning Strategies
+- Moving average strategies
+- Momentum strategies
+- LSTM return prediction models
+- XGBoost return prediction models
+- Dynamic portfolio allocation strategies
 
 ### Model Evaluation
 
@@ -76,12 +96,17 @@ Portfolio performance was compared using:
 - Sharpe ratio
 - Portfolio return
 - Volatility
-- Drawdown analysis
-- Risk-adjusted performance metrics
+- Maximum drawdown
+- Value-at-Risk (VaR)
+- Conditional Value-at-Risk (CVaR)
+- Statistical significance testing using:
+  - Jobson-Korkie-Memmel Sharpe ratio tests
+  - Bootstrap confidence intervals
+  - Holm-Bonferroni correction
 
 ---
 
-## 📈 Results
+## Results
 
 The analysis showed that portfolio optimisation methods can improve risk-adjusted performance compared with naive diversification.
 
