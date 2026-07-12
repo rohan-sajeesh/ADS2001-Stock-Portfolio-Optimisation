@@ -10,11 +10,9 @@ Portfolio optimisation is the process of selecting asset allocations that balanc
 
 The project compares 25+ portfolio construction strategies across classical optimisation, risk-based allocation, tail-risk methods, technical strategies, and machine learning-driven approaches using historical S&P500 stock returns.
 
-The project compares classical optimisation methods, risk-based approaches, and machine learning-driven strategies using historical stock returns.
 
 **Project:** ADS2001 – Data Challenges (Monash University)  
 **Project Type:** Group project completed with five members
-
 ---
 
 ## Objective
