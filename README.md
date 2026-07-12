@@ -8,11 +8,11 @@ Quantitative finance project investigating portfolio construction strategies and
 
 Portfolio optimisation is the process of selecting asset allocations that balance expected returns against investment risk.
 
-The project compares 25+ portfolio construction strategies across classical optimisation, risk-based allocation, tail-risk methods, technical strategies, and machine learning-driven approaches using historical S&P500 stock returns.
-
+This project compares 25+ portfolio construction strategies across classical optimisation, risk-based allocation, tail-risk methods, technical strategies, and machine learning-driven approaches using historical S&P500 stock returns.
 
 **Project:** ADS2001 – Data Challenges (Monash University)  
 **Project Type:** Group project completed with five members
+
 ---
 
 ## Objective
@@ -31,14 +31,19 @@ The project investigates the relationship between:
 - Risk-adjusted performance
 
 ---
+
 ## Repository Structure
 
-├── data/                 Raw and processed datasets
-├── notebooks/            Portfolio optimisation notebooks
-├── report/               Final technical report
-├── Final Presentation/   Presentation slides
-├── graphs & images/      Figures used throughout the project
-└── README.md             Project documentation
+```text
+.
+├── data/                  Raw and processed datasets
+├── notebooks/             Portfolio optimisation notebooks
+├── report/                Final technical report
+├── Final Presentation/    Presentation slides
+├── graphs & images/       Figures used throughout the project
+└── README.md              Project documentation
+```
+
 ---
 
 ## Dataset
@@ -68,28 +73,32 @@ The dataset was used to calculate:
 
 ### Portfolio Optimisation
 
-More than 25 portfolio strategies were developed and evaluated across several methodological families:
+More than 25 portfolio strategies were developed and evaluated across several methodological families.
 
-### Classical Optimisation
+#### Classical Optimisation
+
 - Equal-weight (1/N) benchmark
 - Mean-variance optimisation
 - Maximum Sharpe ratio optimisation
 - Minimum variance optimisation
 - Minimum CVaR optimisation
 
-### Risk-Based Methods
+#### Risk-Based Methods
+
 - Risk Parity
 - Hierarchical Risk Parity (HRP)
 - Maximum Diversification
 - Minimum Drawdown-based optimisation
 
-### Tail-Risk and Robust Methods
+#### Tail-Risk and Robust Methods
+
 - Entropic Value-at-Risk (EVaR)
 - Conditional Value-at-Risk (CVaR)
 - Wasserstein Distributionally Robust Optimisation (DRO)
 - Composite risk-based optimisation methods
 
-### Dynamic and Machine Learning Strategies
+#### Dynamic and Machine Learning Strategies
+
 - Moving average strategies
 - Momentum strategies
 - LSTM return prediction models
@@ -106,10 +115,12 @@ Portfolio performance was compared using:
 - Maximum drawdown
 - Value-at-Risk (VaR)
 - Conditional Value-at-Risk (CVaR)
-- Statistical significance testing using:
-  - Jobson-Korkie-Memmel Sharpe ratio tests
-  - Bootstrap confidence intervals
-  - Holm-Bonferroni correction
+
+Statistical significance was assessed using:
+
+- Jobson-Korkie-Memmel Sharpe ratio tests
+- Bootstrap confidence intervals
+- Holm-Bonferroni correction
 
 ---
 
