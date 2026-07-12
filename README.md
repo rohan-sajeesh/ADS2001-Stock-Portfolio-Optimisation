@@ -31,6 +31,15 @@ The project investigates the relationship between:
 - Risk-adjusted performance
 
 ---
+## Repository Structure
+
+├── data/                 Raw and processed datasets
+├── notebooks/            Portfolio optimisation notebooks
+├── report/               Final technical report
+├── Final Presentation/   Presentation slides
+├── graphs & images/      Figures used throughout the project
+└── README.md             Project documentation
+---
 
 ## Dataset
 
