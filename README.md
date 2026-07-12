@@ -128,12 +128,24 @@ Statistical significance was assessed using:
 
 The analysis showed that portfolio optimisation methods can improve risk-adjusted performance compared with naive diversification.
 
-Key findings:
+### Key Findings
 
-- Risk-structure based approaches achieved the strongest out-of-sample performance.
-- Maximum Diversification produced the highest Sharpe ratio among tested strategies.
-- Machine learning approaches were explored but did not consistently outperform traditional portfolio methods.
-- Simple equal-weight diversification remained a strong benchmark.
+- Risk-based approaches achieved the strongest out-of-sample performance.
+- Maximum Diversification produced the highest Sharpe ratio among all evaluated strategies.
+- Machine learning approaches were explored but did not consistently outperform traditional portfolio optimisation methods.
+- Equal-weight diversification remained a competitive benchmark.
+
+### Top Performing Strategies
+
+| Rank | Strategy | Sharpe Ratio | Annualised Return |
+|-----:|-------------------------------|------------:|------------------:|
+| 1 | Static Maximum Diversification | **1.7255** | **19.37%** |
+| 2 | Static HRP | 1.7088 | 15.72% |
+| 3 | Dynamic Risk Parity | 1.6945 | 15.80% |
+| 4 | Static Risk Parity | 1.6409 | 15.97% |
+| 5 | 1/N (Equal Weight) | 1.6234 | 16.16% |
+
+*Complete results are available in the project report.*
 
 ---
 
