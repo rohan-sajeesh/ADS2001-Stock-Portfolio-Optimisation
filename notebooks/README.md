@@ -13,4 +13,4 @@ The notebook implements the complete data science workflow, including:
 
 The analysis compares classical optimisation, risk-based approaches, tail-risk methods, and machine learning-driven strategies using historical data from 1993–2019.
 
-For a overview of the project findings and recommendations, refer to the main README. For detailed methodology, results & recommendations refer to the final report.
+For an overview of the project findings and recommendations, refer to the main README. For detailed methodology, results, and recommendations, refer to the final report.
