@@ -1,6 +1,6 @@
 # Portfolio Optimisation Notebook
 
-This folder contains the main analysis notebook developed for the ADS2001 portfolio optimisation project.
+This folder contains the main analysis notebook developed collaboratively as part of the ADS2001 portfolio optimisation project.
 
 The notebook implements the complete data science workflow, including:
 
