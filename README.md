@@ -40,6 +40,8 @@ The analysis focused on:
 └── README.md              Project documentation
 ```
 
+Further information about the contents of each folder is provided in the individual folder README files.
+
 ---
 
 ## Dataset
@@ -67,7 +69,7 @@ The dataset was used to calculate:
 - Cleaned and prepared datasets for portfolio modelling
 - Selected stocks for portfolio construction
 
-## Portfolio Optimisation
+### Portfolio Optimisation
 
 More than 25 portfolio strategies were developed and evaluated across several categories:
 
@@ -120,6 +122,8 @@ The analysis showed that portfolio optimisation methods can improve risk-adjuste
 
 *Complete results are available in the project report.*
 
+---
+
 ## Stakeholder Recommendations
 
 Based on the analysis, the project provided the following recommendations:
@@ -128,7 +132,7 @@ Based on the analysis, the project provided the following recommendations:
 - Prioritise risk-based approaches such as Maximum Diversification and Hierarchical Risk Parity when moving beyond equal-weight portfolios.
 - Avoid relying solely on return prediction models, as machine learning approaches did not consistently outperform simpler diversification strategies.
 - Conduct longer out-of-sample testing and incorporate transaction costs before applying strategies in real investment settings.
-  
+
 ---
 
 ## Technologies Used
@@ -152,11 +156,12 @@ This project was completed as part of a five-person team for **ADS2001 – Data 
 
 My contributions included:
 
+- Planning & structuring project implementaiton
 - Implementing mean-variance portfolio optimisation methods
 - Developing Maximum Sharpe ratio optimisation routines
 - Analysing efficient frontiers and portfolio performance
 - Comparing optimisation results against benchmark strategies
-- Contributing to model evaluation and final reporting
+- Contributing to model evaluation, final presentation & report
 
 ---
 
