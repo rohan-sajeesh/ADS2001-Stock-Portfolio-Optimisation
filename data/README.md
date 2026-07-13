@@ -39,3 +39,5 @@ The optimisation models were trained using **daily percentage returns**, with ea
 |1993-09-12|0.00000|0.00000|0.00000|0.00000|0.00000|
 
 *Only a representative subset of columns and rows is shown.*
+
+The cleaned dataset was used as input for portfolio optimisation models and strategy evaluation.
