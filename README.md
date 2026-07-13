@@ -126,7 +126,7 @@ The analysis showed that portfolio optimisation methods can improve risk-adjuste
 
 ## Stakeholder Recommendations
 
-Based on the analysis, the project provided the following recommendations:
+Based on the analysis, the the following recommendations are provided:
 
 - Use equal-weight allocation (1/N) as a strong baseline rather than assuming complex models will always outperform.
 - Prioritise risk-based approaches such as Maximum Diversification and Hierarchical Risk Parity when moving beyond equal-weight portfolios.
