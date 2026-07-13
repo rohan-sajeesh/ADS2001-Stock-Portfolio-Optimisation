@@ -17,18 +17,14 @@ This project compares 25+ portfolio construction strategies across classical opt
 
 ## Objective
 
-The goal of this project was to determine:
+The project aimed to investigate how different portfolio construction strategies balance investment return and risk, and provide evidence-based recommendations for portfolio allocation decisions.
 
-- The optimal allocation of stocks within a portfolio
-- How different optimisation techniques affect portfolio performance
-- Whether advanced mathematical and machine learning approaches outperform naive diversification
+The analysis focused on:
 
-The project investigates the relationship between:
-
-- Portfolio return
-- Portfolio risk
-- Asset allocation
-- Risk-adjusted performance
+- Comparing traditional, risk-based, and machine learning portfolio strategies
+- Evaluating the trade-off between portfolio return and risk
+- Determining whether complex optimisation methods outperform simple diversification approaches
+- Identifying robust strategies for stakeholder decision-making
 
 ---
 
@@ -71,39 +67,16 @@ The dataset was used to calculate:
 - Cleaned and prepared datasets for portfolio modelling
 - Selected stocks for portfolio construction
 
-### Portfolio Optimisation
+## Portfolio Optimisation
 
-More than 25 portfolio strategies were developed and evaluated across several methodological families.
+More than 25 portfolio strategies were developed and evaluated across several categories:
 
-#### Classical Optimisation
+- **Classical Optimisation:** Mean-variance optimisation, Maximum Sharpe ratio, Minimum Variance, and equal-weight benchmarks
+- **Risk-Based Methods:** Risk Parity, Hierarchical Risk Parity (HRP), and Maximum Diversification
+- **Tail-Risk Methods:** CVaR, EVaR, and Distributionally Robust Optimisation
+- **Machine Learning Strategies:** LSTM and XGBoost return prediction models, momentum strategies, and dynamic allocation methods
 
-- Equal-weight (1/N) benchmark
-- Mean-variance optimisation
-- Maximum Sharpe ratio optimisation
-- Minimum variance optimisation
-- Minimum CVaR optimisation
-
-#### Risk-Based Methods
-
-- Risk Parity
-- Hierarchical Risk Parity (HRP)
-- Maximum Diversification
-- Minimum Drawdown-based optimisation
-
-#### Tail-Risk and Robust Methods
-
-- Entropic Value-at-Risk (EVaR)
-- Conditional Value-at-Risk (CVaR)
-- Wasserstein Distributionally Robust Optimisation (DRO)
-- Composite risk-based optimisation methods
-
-#### Dynamic and Machine Learning Strategies
-
-- Moving average strategies
-- Momentum strategies
-- LSTM return prediction models
-- XGBoost return prediction models
-- Dynamic portfolio allocation strategies
+Strategies were evaluated using risk-adjusted performance metrics including Sharpe ratio, return, volatility, maximum drawdown, and Value-at-Risk.
 
 ### Model Evaluation
 
@@ -147,6 +120,15 @@ The analysis showed that portfolio optimisation methods can improve risk-adjuste
 
 *Complete results are available in the project report.*
 
+## Stakeholder Recommendations
+
+Based on the analysis, the project provided the following recommendations:
+
+- Use equal-weight allocation (1/N) as a strong baseline rather than assuming complex models will always outperform.
+- Prioritise risk-based approaches such as Maximum Diversification and Hierarchical Risk Parity when moving beyond equal-weight portfolios.
+- Avoid relying solely on return prediction models, as machine learning approaches did not consistently outperform simpler diversification strategies.
+- Conduct longer out-of-sample testing and incorporate transaction costs before applying strategies in real investment settings.
+  
 ---
 
 ## Technologies Used
