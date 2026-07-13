@@ -7,7 +7,7 @@
 
 This folder contains the final project report developed for ADS2001.
 
-The report documents the complete data science workflow, including problem definition, data preparation, exploratory analysis, model development, evaluation, and recommendations.
+The report documents the complete data science workflow and stakeholder recommendations, including problem definition, data preparation, exploratory analysis, model development, evaluation, and recommendations.
 
 ## Purpose
 
