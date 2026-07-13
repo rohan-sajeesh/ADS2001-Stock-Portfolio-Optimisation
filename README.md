@@ -156,12 +156,11 @@ This project was completed as part of a five-person team for **ADS2001 – Data 
 
 My contributions included:
 
-- Planning & structuring project implementaiton
-- Implementing mean-variance portfolio optimisation methods
-- Developing Maximum Sharpe ratio optimisation routines
-- Analysing efficient frontiers and portfolio performance
-- Comparing optimisation results against benchmark strategies
-- Contributing to model evaluation, final presentation & report
+- Implementing and evaluating portfolio optimisation approaches, including mean-variance optimisation and Maximum Sharpe ratio optimisation
+- Analysing portfolio performance, efficient frontiers, and risk-return trade-offs across different strategies
+- Applying statistical testing and performance analysis to compare optimisation approaches and interpret results
+- Contributing to the development of stakeholder recommendations based on model findings
+- Supporting the final report, presentation, and communication of results
 
 ---
 
